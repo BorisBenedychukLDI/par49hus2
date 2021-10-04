@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow2_49hus2"
+    tools:context=".MainActivity49hus2">
+
+    <Button
+        android:id="@+id/b_start_49hus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/custom_button_49hus2"
+        android:foregroundTint="@color/yellow_49hus2"
+        android:text="@string/start_49hus2"
+        android:textAllCaps="false"
+        android:textColor="@color/yellow_49hus2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_baseball_49hus2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_basketball_49hus2"
+        app:layout_constraintEnd_toStartOf="@+id/iv_basketball_49hus2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/baseball_ball_49hus2"
+        app:layout_constraintTop_toTopOf="@+id/iv_basketball_49hus2"
+        app:srcCompat="@drawable/ic_baseline_sports_baseball_49hus2" />
+
+    <ImageView
+        android:id="@+id/iv_basketball_49hus2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/basketball_ball_49hus2"
+        app:srcCompat="@drawable/ic_baseline_sports_basketball_49hus2" />
+
+    <ImageView
+        android:id="@+id/iv_footaball_49hus2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_basketball_49hus2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:contentDescription="@string/football_ball_49hus2"
+        app:layout_constraintStart_toEndOf="@+id/iv_basketball_49hus2"
+        app:layout_constraintTop_toTopOf="@+id/iv_basketball_49hus2"
+        app:srcCompat="@drawable/ic_baseline_sports_football_49hus2" />
+
+    <ProgressBar
+        android:id="@+id/pb_progress_49hus2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:max="100"
+        android:progressBackgroundTint="@color/black_49hus2"
+        android:progressTint="@color/yellow_49hus2"
+        app:layout_constraintBottom_toTopOf="@+id/b_start_49hus2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_logo_49hus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:contentDescription="@string/logo_49hus2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pari_logo_49hus2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

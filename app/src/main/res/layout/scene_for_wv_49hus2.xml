@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow_49hus2"
+    tools:context=".WebViewActivity49hus2">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/srl_49hus2"
+        android:layout_width="131dp"
+        android:layout_height="148dp"
+        android:alpha="0.7"
+        app:layout_constraintBottom_toTopOf="@+id/tv_no_connection_49hus2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.pa.va.ma.tchi.appp.WebView49hus2.WebView49hus2
+            android:id="@+id/wv_49hus2"
+            android:layout_width="174dp"
+            android:layout_height="215dp" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <ProgressBar
+        android:id="@+id/pb_2_49hus2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="37dp"
+        android:layout_height="32dp"
+        android:indeterminateTint="@color/black_49hus2"
+        app:layout_constraintBottom_toBottomOf="@+id/srl_49hus2"
+        app:layout_constraintEnd_toEndOf="@+id/srl_49hus2"
+        app:layout_constraintStart_toStartOf="@+id/srl_49hus2"
+        app:layout_constraintTop_toTopOf="@+id/srl_49hus2" />
+
+    <TextView
+        android:id="@+id/tv_no_connection_49hus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connection_was_lost_49hus2"
+        android:textColor="@color/black_49hus2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b_reconnect_49hus2"
+        android:layout_width="109dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button_2_49hus2"
+        android:text="@string/reconnect_49hus2"
+        android:textColor="@color/black_49hus2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_no_connection_49hus2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

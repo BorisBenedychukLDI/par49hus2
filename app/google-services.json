@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "811526247395",
+    "project_id": "compavamatchiappp",
+    "storage_bucket": "compavamatchiappp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811526247395:android:5a2f2e0703b95264bfc6d6",
+        "android_client_info": {
+          "package_name": "com.pa.va.ma.tchi.appp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811526247395-j4k8gg9mn4rglrnb97vu9s0sc6uvuenk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlZzH1z0HY-nRbKG88UNltEbTiUOVAlK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811526247395-j4k8gg9mn4rglrnb97vu9s0sc6uvuenk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Parimatch</string>
+    <string name="start_49hus2">Start</string>
+    <string name="football_ball_49hus2">football ball</string>
+    <string name="baseball_ball_49hus2">baseball ball</string>
+    <string name="basketball_ball_49hus2">basketball ball</string>
+    <string name="logo_49hus2">logo</string>
+    <string name="connection_was_lost_49hus2">Connection was lost</string>
+    <string name="reconnect_49hus2">Reconnect</string>
+</resources>
