@@ -24,7 +24,7 @@ class Application49hus2 : Application (){
         var afChannel49hus2: String? = null
         var mediaSource49hus2: String? = null
 
-        var GAID49hus2: String? = null
+        var aid49hus2: String? = null
         var APPSFLYER_UID49hus2: String? = null
 
         var status49hus2: String? = null

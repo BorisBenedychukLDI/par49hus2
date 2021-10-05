@@ -111,7 +111,7 @@ class MainActivity49hus2 : AppCompatActivity() {
                             .appendQueryParameter("sub6", Application49hus2.afChannel49hus2)
                             .appendQueryParameter("sub7", Application49hus2.mediaSource49hus2)
                             .toString()
-                            .plus("&sub10=${Application49hus2.APPSFLYER_UID49hus2}||${Application49hus2.GAID49hus2}||${Application49hus2.APPSFLYER_KEY_49hus2}")
+                            .plus("&sub10=${Application49hus2.APPSFLYER_UID49hus2}||${Application49hus2.aid49hus2}||${Application49hus2.APPSFLYER_KEY_49hus2}")
                     )
                 } else {
                     parseDefault49hus2()
@@ -124,7 +124,7 @@ class MainActivity49hus2 : AppCompatActivity() {
                         .appendQueryParameter("bundle", packageName)
                         .appendQueryParameter("sub7", "Organic")
                         .toString()
-                        .plus("&sub10=${Application49hus2.APPSFLYER_UID49hus2}||${Application49hus2.GAID49hus2}||${Application49hus2.APPSFLYER_KEY_49hus2}")
+                        .plus("&sub10=${Application49hus2.APPSFLYER_UID49hus2}||${Application49hus2.aid49hus2}||${Application49hus2.APPSFLYER_KEY_49hus2}")
                 )
             }
         }
@@ -139,6 +139,6 @@ class MainActivity49hus2 : AppCompatActivity() {
             .appendQueryParameter("sub6", Application49hus2.afChannel49hus2)
             .appendQueryParameter("sub7","Default")
             .toString()
-            .plus("&sub10=${Application49hus2.APPSFLYER_UID49hus2}||${Application49hus2.GAID49hus2}||${Application49hus2.APPSFLYER_KEY_49hus2}"))
+            .plus("&sub10=${Application49hus2.APPSFLYER_UID49hus2}||${Application49hus2.aid49hus2}||${Application49hus2.APPSFLYER_KEY_49hus2}"))
     }
 }

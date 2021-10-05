@@ -21,7 +21,7 @@ fun Context.mobileAds49hus2 () {
     MobileAds.initialize(this)
     CoroutineScope(Dispatchers.IO).launch {
         try {
-            Application49hus2.GAID49hus2 =
+            Application49hus2.aid49hus2 =
                 AdvertisingIdClient.getAdvertisingIdInfo(this@mobileAds49hus2)?.id
         } catch (e49hus2: Exception) {
 
@@ -30,7 +30,7 @@ fun Context.mobileAds49hus2 () {
 }
 
 fun Context.appsFlyer49hus2 () {
-    val applsFlyerConversion49hus2 = object : AppsFlyerConversionListener {
+    val appsFlyerConversion49hus2 = object : AppsFlyerConversionListener {
         override fun onConversionDataSuccess(dataMap49hus2: MutableMap<String, Any>?) {
             dataMap49hus2?.run {
 
@@ -73,7 +73,7 @@ fun Context.appsFlyer49hus2 () {
         Application49hus2.APPSFLYER_UID49hus2 = getAppsFlyerUID(this@appsFlyer49hus2)
         init(
             Application49hus2.APPSFLYER_KEY_49hus2,
-            applsFlyerConversion49hus2,
+            appsFlyerConversion49hus2,
             this@appsFlyer49hus2
         )
         start(this@appsFlyer49hus2)
