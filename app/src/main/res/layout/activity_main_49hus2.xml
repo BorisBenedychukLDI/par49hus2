@@ -38,7 +38,7 @@
         android:id="@+id/iv_basketball_49hus2"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/iv_footaball_49hus2"
+        app:layout_constraintBottom_toTopOf="@+id/iv_football_49hus2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +47,7 @@
         app:srcCompat="@drawable/ic_baseline_sports_basketball_49hus2" />
 
     <ImageView
-        android:id="@+id/iv_footaball_49hus2"
+        android:id="@+id/iv_football_49hus2"
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:layout_constraintBottom_toTopOf="@+id/b_start_49hus2"
