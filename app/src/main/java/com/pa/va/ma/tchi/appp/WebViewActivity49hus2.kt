@@ -115,7 +115,7 @@ class WebViewActivity49hus2 : AppCompatActivity() {
 
     @SuppressLint("ClickableViewAccessibility")
     private fun animateNetworkMissing49hus2() {
-        TransitionManager.go(scene249hus2)
+        TransitionManager.go(scene249hus2, ChangeBounds())
         val button49hus2 = findViewById<Button>(R.id.b_reconnect_49hus2)
         findViewById<SwipeRefreshLayout>(R.id.srl_49hus2).isEnabled = false
         findViewById<WebView49hus2>(R.id.wv_49hus2).setOnTouchListener { _49hus2, _49hus2_ -> true }
