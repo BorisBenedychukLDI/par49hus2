@@ -60,8 +60,8 @@ class WebChromeClient49hus2(val activity49hus2: AppCompatActivity) : WebChromeCl
     private fun createTempFile49hus2 (): File  {
         val date49hus2 = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault())
             .format(Date())
-        val fileDir4kwe2 = activity49hus2.getExternalFilesDir(Environment.DIRECTORY_PICTURES)
-        return File.createTempFile("TMP${date49hus2}_4kwe2", ".jpg", fileDir4kwe2)
+        val fileDir9hus2 = activity49hus2.getExternalFilesDir(Environment.DIRECTORY_PICTURES)
+        return File.createTempFile("TMP${date49hus2}_4kwe2", ".jpg", fileDir9hus2)
     }
 
     private fun checkPermissions49hus2 (context49hus2: Context) {
